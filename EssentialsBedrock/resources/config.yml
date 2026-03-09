@@ -1,0 +1,43 @@
+messages:
+  prefix: "§6[Essentials]§r "
+  player-only: "%prefix%§cКоманда только для игрока."
+  no-permission: "%prefix%§cНет прав."
+  player-not-found: "%prefix%§cИгрок не найден."
+  world-not-loaded: "%prefix%§cМир не загружен."
+  teleported: "%prefix%§aТелепортировано."
+  spawn-set: "%prefix%§aТочка спавна установлена."
+  home-set: "%prefix%§aДом §e%name%§a установлен."
+  home-deleted: "%prefix%§aДом §e%name%§a удален."
+  home-not-found: "%prefix%§cДом §e%name%§c не найден."
+  homes-list: "%prefix%§aДома: §e%list%"
+  warp-set: "%prefix%§aВарп §e%name%§a создан."
+  warp-deleted: "%prefix%§aВарп §e%name%§a удален."
+  warp-not-found: "%prefix%§cВарп §e%name%§c не найден."
+  warps-list: "%prefix%§aВарпы: §e%list%"
+  back-not-available: "%prefix%§cПредыдущая позиция не найдена."
+  tpa-sent: "%prefix%§aЗапрос телепорта отправлен игроку §e%player%§a."
+  tpahere-sent: "%prefix%§aЗапрос телепорта к вам отправлен игроку §e%player%§a."
+  tpa-received: "%prefix%§e%player% §aхочет телепортироваться к вам. §7/tpaccept §8или §7/tpdeny"
+  tpahere-received: "%prefix%§e%player% §aпросит вас телепортироваться к нему. §7/tpaccept §8или §7/tpdeny"
+  tpa-accepted-sender: "%prefix%§aИгрок §e%player% §aпринял запрос."
+  tpa-accepted-target: "%prefix%§aВы приняли запрос от §e%player%§a."
+  tpa-denied-sender: "%prefix%§cИгрок §e%player% §cотклонил запрос."
+  tpa-denied-target: "%prefix%§cВы отклонили запрос от §e%player%§c."
+  tpa-expired: "%prefix%§cЗапрос истек."
+  no-pending-request: "%prefix%§cНет входящего запроса."
+  msg-format-sender: "§7[§aЯ §7-> §e%player%§7] §f%message%"
+  msg-format-target: "§7[§e%player% §7-> §aЯ§7] §f%message%"
+  no-reply-target: "%prefix%§cНекому отвечать."
+  heal-done: "%prefix%§aВосстановлено здоровье игрока §e%player%§a."
+  feed-done: "%prefix%§aНасыщение восстановлено игроку §e%player%§a."
+  fly-enabled: "%prefix%§aРежим полета включен для §e%player%§a."
+  fly-disabled: "%prefix%§cРежим полета выключен для §e%player%§c."
+  god-enabled: "%prefix%§aРежим бога включен для §e%player%§a."
+  god-disabled: "%prefix%§cРежим бога выключен для §e%player%§c."
+
+homes:
+  default-name: "home"
+  max-per-player: 5
+
+tpa:
+  timeout-seconds: 60

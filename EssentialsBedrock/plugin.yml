@@ -1,0 +1,146 @@
+name: EssentialsBedrock
+version: 1.0.0
+main: icrafts\essentialsbedrock\EssentialsBedrock
+api: 5.0.0
+author: iCrafts
+description: EssentialsX-inspired core commands for PocketMine-MP Bedrock
+
+commands:
+  setspawn:
+    description: Set global spawn point
+    usage: "/setspawn"
+    permission: essentialsbedrock.setspawn
+  spawn:
+    description: Teleport to global spawn
+    usage: "/spawn"
+    permission: essentialsbedrock.spawn
+  sethome:
+    description: Set your home point
+    usage: "/sethome [name]"
+    permission: essentialsbedrock.sethome
+  home:
+    description: Teleport to home
+    usage: "/home [name]"
+    permission: essentialsbedrock.home
+  delhome:
+    description: Delete home
+    usage: "/delhome [name]"
+    permission: essentialsbedrock.delhome
+  homes:
+    description: List homes
+    usage: "/homes"
+    permission: essentialsbedrock.homes
+  setwarp:
+    description: Create warp
+    usage: "/setwarp <name>"
+    permission: essentialsbedrock.setwarp
+  warp:
+    description: Teleport to warp
+    usage: "/warp <name>"
+    permission: essentialsbedrock.warp
+  delwarp:
+    description: Delete warp
+    usage: "/delwarp <name>"
+    permission: essentialsbedrock.delwarp
+  warps:
+    description: List warps
+    usage: "/warps"
+    permission: essentialsbedrock.warps
+  back:
+    description: Teleport to previous location
+    usage: "/back"
+    permission: essentialsbedrock.back
+  tpa:
+    description: Request teleport to player
+    usage: "/tpa <player>"
+    permission: essentialsbedrock.tpa
+  tpahere:
+    description: Request player teleport to you
+    usage: "/tpahere <player>"
+    permission: essentialsbedrock.tpahere
+  tpaccept:
+    description: Accept teleport request
+    usage: "/tpaccept"
+    permission: essentialsbedrock.tpaccept
+  tpdeny:
+    description: Deny teleport request
+    usage: "/tpdeny"
+    permission: essentialsbedrock.tpdeny
+  msg:
+    description: Private message
+    usage: "/msg <player> <message>"
+    aliases: [tell, w]
+    permission: essentialsbedrock.msg
+  r:
+    description: Reply to last private message
+    usage: "/r <message>"
+    aliases: [reply]
+    permission: essentialsbedrock.reply
+  heal:
+    description: Heal yourself or player
+    usage: "/heal [player]"
+    permission: essentialsbedrock.heal
+  feed:
+    description: Feed yourself or player
+    usage: "/feed [player]"
+    permission: essentialsbedrock.feed
+  fly:
+    description: Toggle flight
+    usage: "/fly [player]"
+    permission: essentialsbedrock.fly
+  god:
+    description: Toggle god mode
+    usage: "/god [player]"
+    permission: essentialsbedrock.god
+
+permissions:
+  essentialsbedrock.spawn:
+    default: true
+  essentialsbedrock.setspawn:
+    default: op
+  essentialsbedrock.sethome:
+    default: true
+  essentialsbedrock.home:
+    default: true
+  essentialsbedrock.delhome:
+    default: true
+  essentialsbedrock.homes:
+    default: true
+  essentialsbedrock.setwarp:
+    default: op
+  essentialsbedrock.warp:
+    default: true
+  essentialsbedrock.delwarp:
+    default: op
+  essentialsbedrock.warps:
+    default: true
+  essentialsbedrock.back:
+    default: true
+  essentialsbedrock.tpa:
+    default: true
+  essentialsbedrock.tpahere:
+    default: true
+  essentialsbedrock.tpaccept:
+    default: true
+  essentialsbedrock.tpdeny:
+    default: true
+  essentialsbedrock.msg:
+    default: true
+  essentialsbedrock.reply:
+    default: true
+  essentialsbedrock.heal:
+    default: op
+  essentialsbedrock.feed:
+    default: op
+  essentialsbedrock.fly:
+    default: op
+  essentialsbedrock.god:
+    default: op
+  essentialsbedrock.heal.others:
+    default: op
+  essentialsbedrock.feed.others:
+    default: op
+  essentialsbedrock.fly.others:
+    default: op
+  essentialsbedrock.god.others:
+    default: op
