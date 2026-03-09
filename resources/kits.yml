@@ -1,0 +1,8 @@
+kits:
+  starter:
+    delay: 3600
+    items:
+      - "stone_sword:1"
+      - "bread:16"
+      - "oak_log:32"
+    commands: []
